@@ -2,7 +2,7 @@ name: Post Tweet
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Every day at 6:00 AM UTC (11:30 AM IST)
+    - cron: '30 18 * * *'  # Every day at 6:00 AM UTC (11:30 AM IST)
   workflow_dispatch:     # Allows manual run from the Actions tab
 
 jobs:
